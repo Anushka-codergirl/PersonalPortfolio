@@ -41,6 +41,7 @@ header{
     width: 180px;
 	height: 180px;
 	border-radius: 50%;
+	box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 8px 0 rgb(0 0 0 / 14%), 0 1px 16px 0 rgb(0 0 0 / 12%);
 }
 
 .line-drawing-demo{
@@ -56,6 +57,24 @@ header{
     border:1px solid rgba(236, 240, 236, 0.253);
     width: 70%;
     height: 1%;
+}
+
+.btn{
+	font-family: 'Satisfy' ,cursive;
+	height: 40px;
+	width: auto;
+	padding: 10px;
+  	border: 0;
+  	border-radius: 15px;
+  	background-color: #e73c7e;
+  	cursor: pointer;
+}
+
+
+
+.btn-stylish{
+	text-decoration: none;
+	color: white;
 }
 
 .footer-list-item {
